@@ -1,0 +1,635 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+section.banner_capa{
+  position: relative;
+  width: 100%;
+}
+section.banner_capa::before{
+  display: block;
+  content: "";
+  width: 100%;
+  padding-top: 26.0416666667%;
+}
+section.banner_capa > .inner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+section .banner_capa picture img {
+  width: 100%;
+}
+
+/*--- INICIO LP ---*/
+
+/* corpo LP  */ 
+
+section.corpo_lp{
+  width:100%;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+/* linha troca fast */
+section.corpo-troca-fast::before{
+  display: block;
+  content: "";
+  width: 100%;
+  padding-top: 28.447917%;
+
+}
+
+section .corpo-troca-fast {
+  margin: 0 auto;
+  width:90%;
+  height: auto;
+}
+
+.texto-linha-troca-fast h2{
+  position: absolute;
+  top: 48%;
+  font-size: 1.8vw;
+}
+.texto-linha-troca-fast h2:nth-of-type(1){
+  left: 9%;
+}
+
+.texto-linha-troca-fast h2:nth-of-type(2){
+  left: 46%;
+}
+.texto-linha-troca-fast h2:nth-of-type(3){
+  left: 79%;
+}
+
+.texto-linha-troca-fast p{
+  position: absolute;
+  top: 60%;
+  text-align: center;
+  font-size: 1.2vw;
+}
+
+.texto-linha-troca-fast p:nth-of-type(1){
+  left: 2%;
+  width: 22%;
+}
+.texto-linha-troca-fast p:nth-of-type(2){
+  left: 37%;
+  width: 25%;
+}
+.texto-linha-troca-fast p:nth-of-type(3){
+  left: 72%;
+  width: 23%;
+}
+
+
+
+
+/* seção suporte técnico */
+section.suporte-tecnico::before{
+  display: block;
+  content: "";
+  width: 100%;
+  margin-top: -1.7%;
+  padding-top: 20.4167%;
+}
+
+section.suporte-tecnico{
+  display:block;
+  align-items:center;
+  width: 100%;
+  height:auto;
+  position:relative;
+  align-items:center;
+}
+/* section.suporte-tecnico h2, h3, p, span{
+  position:absolute;
+  top: 88px;
+} */
+
+section.suporte-tecnico .line{
+  position:absolute;
+  width:1px;
+  height:17%;
+  top: 6%;
+  left: 94.9%;
+  background-color:#D4C9A3;
+  z-index:0;
+}
+section.suporte-tecnico h2{
+  position:absolute;
+  font-size: 4.3vw;
+  top:28%;
+  left:6%;
+}
+section.suporte-tecnico h2.tecnico{
+  position:absolute;
+  top:52%;
+  left:16%;
+}
+section.suporte-tecnico h3{
+  position:absolute;
+  width: 37%;
+  font-size: 2vw;
+  top:27%;
+  left: 56%;
+  line-height:127%;
+  font-weight:600;
+}
+section.suporte-tecnico p{
+  position:absolute;
+  width: 39%;
+  font-size: 1.5vw;
+  top:52%;
+  left:56%;
+  font-weight:400;
+}
+
+section.suporte-tecnico span{
+  position:absolute;
+  width: 37%;
+  font-size: 1vw;
+  top:74%;
+  left:56%;
+}
+
+
+section.suporte-tecnico .texto-suporte .texto-explicativo{
+ width:55%;
+ transform:translateX(10%);
+}
+section.suporte-tecnico .texto-suporte .texto-explicativo h3{
+  width:80%;
+  font-size:clamp(18px, 2vw, 35px);
+  font-weight:600;
+  line-height:40px;
+}
+section.suporte-tecnico .texto-suporte .texto-explicativo p{
+   width:80%;
+  font-size:clamp(15px, 2vw, 25px);
+  font-weight:400;
+  line-height:35px;
+  margin:1% 0;
+}
+section.suporte-tecnico .texto-suporte .texto-explicativo p span{
+  font-weight:600;
+}
+section.suporte-tecnico .texto-suporte .texto-explicativo span{
+  margin-top:10px
+}
+section.suporte-tecnico .texto-suporte .suporte h2{
+  font-size:clamp(35px, 5vw, 89px);
+  margin:0 -9px;
+}
+section.suporte-tecnico .texto-suporte .suporte span{
+  font-size:clamp(15px, 2vw, 20px);
+  font-weight:400;
+  margin-top:10px;
+  
+}
+section.suporte-tecnico .texto-suporte .suporte h2.tecnico{
+  transform:translateX(140px);
+}
+
+
+/* section marcas */
+
+section.marcas-aceitas::before{
+  display: block;
+  content: "";
+  width: 100%;
+  padding-top:  33.2915360502%;
+}
+
+
+section.marcas-aceitas{
+  width:90%;
+  height:auto;
+  text-align:center;
+  margin:10vw auto;
+  background-color: #FAFAFA;
+  border-radius:16px;
+  position:relative;
+  max-height:500px;
+}
+section.marcas-aceitas h2{
+  position:absolute;
+  left:44%;
+  top:4%;
+  font-weight:400;
+  text-align:center;
+}
+section.marcas-aceitas .container-marcas{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin:5% auto;
+  width:96%;
+  height:76%;
+  padding:;
+  background-color:#FFFFFF;
+  border-radius:16px;
+  
+}
+
+/* setas carousel */
+
+section.marcas-aceitas .container-marcas .owl-prev{
+  position:absolute;
+  left:-13vw;
+  top:40%
+}
+section.marcas-aceitas .container-marcas .owl-next{
+ position:absolute;
+ right:-13vw;
+ top:40%
+}
+section.marcas-aceitas .container-marcas .carousel{
+  width:90%;
+  height:200px;
+  display:flex;
+  align-items:center;
+  margin:5% auto;
+  overflow:hidden;
+  
+}
+section.marcas-aceitas .container-marcas .hidden-logo{
+  width:67%;
+  height:auto;
+  margin:0 auto;
+  background-color:#FFFFFF;
+  padding:0 4%
+}
+section.marcas-aceitas .container-marcas .carousel .item{
+  display:flex; align-items:center; justify-content:center;
+}
+
+
+/* Section encotre loja */
+section.encontre_loja::before{
+  display: block;
+  content: "";
+  width: 100%;
+  padding-top: 26.0416666667%;
+}
+section.encontre_loja {
+  width:97%;
+  heigth:349px;
+  margin:0 auto;
+
+  position:relative;
+}
+section.encontre_loja picture img{
+  width:40%;
+  height:100%;
+  position:absolute;
+}
+section.encontre_loja .background_encotre_loja{
+  width:58%;
+  height:100%;
+  left: 42%;
+  position:absolute;
+  background-color: #EEE9DA;
+  border-radius:16px;
+}
+section.encontre_loja h2{
+ position:absolute;
+ left:47%;
+ top:8.53%;
+ font-size:2vw;
+ font-weight:600;
+}
+section.encontre_loja p{
+ position:absolute;
+ left:47%;
+ top:45.53%;
+ font-size:1.3vw;
+ font-weight:400
+}
+section.encontre_loja button{
+  position:absolute;
+  left:47%;
+  top:77.53%;
+  font-size:0.8vw;
+  font-weight:600;
+
+  width: 30%; 
+  max-width: 60%; 
+  height: 1%; 
+  padding:1.5% 5%;
+  border-radius:24px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  border:none;
+  outline:0;
+  background-color:#303030;
+  color:#FFFFFF;
+  cursor:pointer;
+}
+
+
+/* section FAQ */
+    .golden {position: relative;max-width: 1600px;width: 70%;margin: 0 auto;font-family: Arial, Helvetica, sans-serif; color: #303030;background-color: rgb(255, 255, 255);font-size: 1rem;}
+    .golden_faq { background-color: #ffffff;padding-bottom: 8rem;}
+    #goldFri_sanfona_faq { width: 75%; margin: 0 auto;}
+    .golden_faq #goldFri_sanfona_faq h2 {text-align: center;width: 100%;letter-spacing: 0.3vw;color: #303030;font-weight: 600;font-size: 20px;margin: 0px;padding: 50px 0px 30px;}
+    .goldFri_sanfona_item {position: relative; padding: 1rem; cursor: pointer; background-color: #FFFFFF;border-radius: 30px; border: 1px solid #cccccc}
+    .goldFri_sanfona_item_ativo { background-color: #FFFFFF;}
+    .goldFri_sanfona_titulo p{font-weight: bold;margin-bottom: 0 !important;margin: 0;}
+    .goldFri_sanfona_seta { position: absolute; width: 3%; right: 2%; top: 25%;transform: rotate(0deg);color:#303030;}
+    .goldFri_sanfona_conteudo { max-height: 0;overflow: hidden;transition: 200ms;}
+    .goldFri_sanfona_conteudo p { width: 90%; line-height: 18pt;margin-top: 1vw;}
+    .goldFri_sanfona_item_ativo .goldFri_sanfona_seta { transform: rotate(180deg);}
+    .goldFri_sanfona_item_ativo .goldFri_sanfona_conteudo{transition: max-height 500ms; max-height: 500px;}
+
+ /* footer */
+footer{
+  width:100%;
+  min-width:100%;
+  height: 12.625rem;
+  padding: 0.625rem 6.25rem;
+  background-color:#303030;
+  margin-bottom:-10%;
+}
+
+ footer::before{
+  display: block;
+  content: "";
+  width: 100%;
+  padding-top: 6.0416666667%;
+}
+
+footer > .inner {
+  position: absolute;
+  display:flex;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  gap:27px
+}
+footer .footer-troca-fast{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  width:93%;
+  margin:0 auto;
+ 
+}
+footer .footer-troca-fast p{
+  width:89%;
+  height:auto;
+  color:#ffffff;
+  font-size: 0.875rem;
+  line-height:1.5vw;
+}
+footer .footer-troca-fast img{
+  width:6vw;
+  height:auto;
+}
+
+ footer .footer-troca-fast h2{
+    display:none;
+  }
+/* Media Responsiva */
+
+/* criar um media de min 16000px */
+@media screen and (min-width: 1600px){
+  section.corpo_lp{
+    max-width:100%
+  }
+
+  .texto-linha-troca-fast h2{font-size:23px;}
+  .texto-linha-troca-fast p{font-size:18px;}
+  .texto-linha-troca-fast h2:nth-of-type(1) {left: 10%;}
+  .texto-linha-troca-fast h2:nth-of-type(2) {left: 48%;}
+  .texto-linha-troca-fast h2:nth-of-type(3) {left: 81%;}
+
+  .texto-linha-troca-fast p:nth-of-type(1) {width:17%; left:3%}
+  .texto-linha-troca-fast p:nth-of-type(2) {width:18%; left:41%}
+  .texto-linha-troca-fast p:nth-of-type(3) {width:17%; left:75%}
+
+  section.suporte-tecnico h2 {font-size:89px;top: 21%;left: 3%;}
+  section.suporte-tecnico h2.tecnico {font-size:89px;top: 49%;left: 11%;}
+  section.suporte-tecnico::before {margin-top: 0.3%;}
+  section.suporte-tecnico .line {height: 25%;top: -2%;left: 94.9%;}
+  section.suporte-tecnico h3 {width: 57%;font-size: 2.2vw;line-height:40px;}
+  section.suporte-tecnico p {width: 40%;font-size: 1.5vw;}
+  section.suporte-tecnico span{font-size:1.2vw;}
+
+  footer .footer-troca-fast h2{
+    display:none;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  section.corpo-troca-fast::before {
+    margin-top: 156.3%;
+  }
+
+  .texto-linha-troca-fast h2:nth-of-type(1) {
+    left: 45%;
+    top: 144%;
+    font-size:3vw;
+}
+  .texto-linha-troca-fast h2:nth-of-type(2) {
+    left: 45%;
+    top: 436%;
+    font-size:3vw;
+}
+}
+  .texto-linha-troca-fast h2:nth-of-type(3) {
+    left: 45%;
+    top: 703%;
+    font-size:3vw;
+}
+.texto-linha-troca-fast p:nth-of-type(1) {
+    left: 23%;
+    top: 194%;
+    width: 56%;
+    font-size: 3vw;
+}
+.texto-linha-troca-fast p:nth-of-type(2) {
+    left: 23%;
+    top: 485%;
+    width: 56%;
+    font-size: 3vw;
+}
+.texto-linha-troca-fast p:nth-of-type(3) {
+    left: 23%;
+    top: 756%;
+    width: 56%;
+    font-size: 3vw;
+}
+
+/* suport Responsivo */
+  section.suporte-tecnico::before {  
+    padding-top:115.675325%;
+    margin-top: 188.3%;
+  
+  }
+  section.suporte-tecnico h2{
+    font-size:7.3vw;
+    top: 38%;
+    left: 20%;
+  }
+   section.suporte-tecnico h2.tecnico{
+    top: 38%;
+    left: 52%;
+   }
+   section.suporte-tecnico h3{
+     width: 76%;
+     font-size: 4vw;
+     top: 53%;
+     left: 14%;
+     text-align: center;
+   }
+  section.suporte-tecnico p {
+    position: absolute;
+    width: 97%;
+    font-size: 3.4vw;
+    top: 69%;
+    left: 2%;
+    text-align: center;
+  }
+  section.suporte-tecnico span{
+    width: 83%;
+      font-size: 3.5vw;
+      top: 86%;
+      left: 9%;
+      text-align: center;
+  }
+  section.marcas-aceitas::before {
+    padding-top: 83.6363636364%;
+    margin-top: -4%;
+}
+section.marcas-aceitas{
+  width:100%;
+}
+section.marcas-aceitas .container-marcas {
+
+    width: 93%;
+}
+section.marcas-aceitas h2{
+  font-size: 4.2vw;
+  top:7%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+section.marcas-aceitas .container-marcas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12% auto;
+}
+section.encontre_loja::before {
+    padding-top: 114.8051948052%;
+}
+section.encontre_loja picture img{
+  width:96%;
+  height:40%;
+  position:relative; 
+  left:2%;
+}
+
+section.encontre_loja .background_encotre_loja {
+    width: 96%;
+    height: 52%;
+    left: 2%;
+    top: 39%;
+    position: absolute;
+    background-color: #EEE9DA;
+    border-radius: 0 0 16px 16px;
+    z-index: 2;
+  }
+  section.encontre_loja h2{
+        width: 55%;
+        font-size: 5.4vw;
+        top: 51%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        text-align: center;
+  }
+   section.encontre_loja p{
+    width: 76%;
+    font-size: 3.5vw;
+    z-index:2;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+    section.encontre_loja button{
+    width:330vw;
+    height:7.3vw;
+    top: 83%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index:2;
+    font-size:2.4vw;
+    border-radius:24px;
+    padding:10px 15px;
+  }
+   section .suporte-tecnico .line {display:none}
+       .golden {position: relative;width: 100%;margin: 0 auto;font-family: Arial, Helvetica, sans-serif; color: #303030;background-color: rgb(255, 255, 255);font-size: 1rem;}
+  .golden_faq #goldFri_sanfona_faq h2{font-size: 4vw;}
+        #goldFri_sanfona_faq{width: 85%;}
+
+        .goldFri_sanfona_item{padding: 3vw;}
+
+        .golden_faq{padding-bottom: 13vw;}
+
+        .goldFri_sanfona_titulo{font-weight: bold; width: 80%;}
+
+        .goldFri_sanfona_seta{width: 5%; right: 6%; top: 25%;}
+
+        .goldFri_sanfona_conteudo p{width: 80%;}
+
+  footer::before {
+    
+    padding-top: 115.8441558442%;
+    margin-top: -2%;
+    position: relative;
+}
+footer {
+  background-color: #303030;
+  height:100vw;
+  text-align: center;
+}
+footer .footer-troca-fast p {
+  color: #ffffff;
+  position: absolute;
+      font-size: 2.4vw;
+      line-height: 7.5vw;
+      width: 80%;
+      top:50%;
+      left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+footer .footer-troca-fast img {
+  position: absolute;
+    width: 28vw;
+    height: auto;
+    top:88%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+footer .footer-troca-fast h2{
+  position:absolute;
+  color:#fff;
+    display:block;
+    font-size:2.6vw;
+    top:12%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

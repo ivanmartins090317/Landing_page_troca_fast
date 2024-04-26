@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="391.595" viewBox="0 0 1920 391.595">
+  <g id="Grupo_12170" data-name="Grupo 12170" transform="translate(0 -961.519)">
+    <rect id="Retângulo_4550" data-name="Retângulo 4550" width="1920" height="248" transform="translate(0 1050)" fill="#eee9da" opacity="0.4"/>
+    <g id="Grupo_11597" data-name="Grupo 11597" transform="translate(-781.053 -119.381)">
+      <g id="Grupo_11583" data-name="Grupo 11583" transform="translate(1512.541 1188.345)">
+        <path id="Icon_feather-shield" data-name="Icon feather-shield" d="M101.809,242.521s95.809-47.9,95.809-119.761V38.928L101.809,3,6,38.928v83.832C6,194.617,101.809,242.521,101.809,242.521Z" transform="translate(-6 -3)" fill="none" stroke="#303030" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+        <path id="Icon_feather-check" data-name="Icon feather-check" d="M89.912,9,32.222,66.689,6,40.467" transform="translate(47.849 81.917)" fill="none" stroke="#303030" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+      </g>
+      <path id="replay_FILL0_wght100_GRAD-25_opsz20" d="M375.2-381.9a170.638,170.638,0,0,1-68.058-13.657,175.9,175.9,0,0,1-55.567-37.42,175.9,175.9,0,0,1-37.42-55.567A170.64,170.64,0,0,1,200.5-556.607h10.938q0,67.506,48.129,115.635T375.2-392.843q67.506,0,115.635-47.973t48.129-115.791q0-67.506-48.129-115.478T374.958-720.058h-11.32l34.378,34.378-8.438,6.563-46.566-47.191L390.828-773.5l8.438,6.876L363.014-731H375.2a170.64,170.64,0,0,1,68.058,13.657,175.9,175.9,0,0,1,55.567,37.42,175.9,175.9,0,0,1,37.42,55.567A169.863,169.863,0,0,1,549.9-556.607a170.642,170.642,0,0,1-13.657,68.058,175.9,175.9,0,0,1-37.42,55.567,175.9,175.9,0,0,1-55.567,37.42A170.638,170.638,0,0,1,375.2-381.9Z" transform="translate(1233.148 1854.4)" fill="#303030"/>
+    </g>
+  </g>
+</svg>
